@@ -1,97 +1,51 @@
 
-body {
-  background-image:url("https://images.pexels.com/photos/3839336/pexels-photo-3839336.jpeg");
-  
-  background-size:100% 220% ;
-  
-  
-  font-family: "Roboto", "sans-serif";
-  
-  margin: 8px;
+
+.Weather {
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
 }
 
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
 
-.city {
+.Weather ul {
   margin: 0;
-  font-size: 38px;
-  line-height: 30px;
+  padding: 0;
 }
 
-.details {
-    font-weight: bold;
+.Weather li {
   font-size: 16px;
-  color: rgba(107, 13, 230, 0.938);
-  line-height: 24px;
-  font-weight: 500;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
 }
-.app-Temparature {
-  display: flex;
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
   position: relative;
-  justify-content: right;
-  bottom: 87px;
+  line-height: 1;
+  top: -34px;
 }
-.weather-temp {
-  font-size: 88px;
-  line-height: 88px;
-  font-weight: bold;
-}
-
-.icon {
-  width: 88px;
-  height: 89px;
-}
-.unit {
-  margin-top: 10px;
-  font-size: 28px;
-}
-.Humidity,
-.speed {
-  color: #ff347f;
-}
-
-.weather-forecast{
-     display: flex;
-  justify-content: space-between;
-text-align: center;
-padding: 0;
-top: 100px;
-}
-
-.forecast-day:hover{
-    background-color: rgba(35, 71, 71, 0.418);
-    color: #ff347f;
-    cursor: pointer;
-    border: 10px;
-    border-radius: 6px;
-   
-
-}
-
-.forecast-date {
-  text-align: center;
-  color: black;
-  font-size: 18px;
-  line-height: 20px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.forecast-icon {
- width: 80px;
- height: 80px;
- display: block;
- margin: 0 auto;
-}
-.forecast-Temperatures {
-  text-align: center;
-  color:#085f63;
-  margin-top: 8px;
-  display: flex;
-  justify-content: center;
-  font-size: medium;
-}
-
-.forecast-Temp {
-  padding: 0 10px;
-}
-
